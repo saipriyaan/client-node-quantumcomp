@@ -1,0 +1,184 @@
+body {
+  
+  margin:0 auto;
+  padding:0;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+  background-color:grey;
+  color:rgb(18, 1, 66);
+  font-size: 100%;
+  border:8px solid darkred;
+  max-width: 500px;
+  max-height: 100vh;
+  border-radius:1px;
+  
+}
+
+.App {
+  text-align: center;
+}
+.App-h{
+  max-height: 75px;
+}
+.App-header {
+  min-height: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  color: black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+h1{
+  font-size: 200%; 
+  font-family:cursive; 
+  font-stretch:20px; 
+  color:darkblue; 
+  padding: 10px; 
+  margin-top: -1%;}
+h2{
+  font-size:125%;
+  margin-bottom: 5%;
+  margin-top:1%;
+  padding:1%;
+  color:lawngreen;}
+h3 {
+  font-size:100%;
+  font-weight: bolder;
+  margin-top:10%;
+  margin-bottom:1%;
+  padding:1%;
+  color:darkgreen;
+}
+p{
+  margin-top: 2px;
+  margin-bottom: -2%;
+  padding: 5px;
+  color: darkorange;
+  font-weight:bold;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 3px;
+  
+}
+table{
+  width: 500px;
+}
+
+tr:nth-child(even){background-color:darkgray  ;}
+tr:nth-child(odd){background-color: rgb(230, 220, 173);}
+
+tr:hover {
+  background-color: darkred;
+  color:yellow
+         }
+
+th {
+  padding-top: 1x;
+  padding-bottom: 1x;
+  text-align: left;
+  background-color: #1504aa;
+  color: white;
+}
+.StoreApp-nav {
+  margin: -1%;
+  position:relative;
+  right:0;
+  top:-12px;
+  
+}
+.StoreApp-nav a {
+  padding: 5px;
+  background-color: #321b83;
+  text-decoration: none;
+  color:lightskyblue;
+  line-height: 1;
+  vertical-align: middle;
+  border-right: 3px solid darkred;
+  border-left:3px solid darkred;
+  font-size: 1.15em;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-bottom: -5px;
+
+}
+
+.StoreApp-nav a:hover {
+  color:#321b83 ;
+  background-color:lightskyblue;
+  padding: 5px;
+  margin-bottom: -10px;
+}
+main {
+  min-height: 500px;
+  padding:2% 5%;
+}
+footer { 
+  padding:1%;
+  background-color: #1b8383;
+  margin: top -10px;
+  margin-bottom:10px;
+}
+.createAndEdit {
+  color: lightcoral;
+  padding: 1px;
+  min-height: 50px;
+
+}
+.buttonCreate{
+  background: darkred;
+  color: lightseagreen;
+  font-size: 50px;
+  margin-bottom: -50%;
+}
+
+.buttonCreate:hover {
+  color:darkred ;
+  background-color:lightseagreen;
+  padding: 5px;
+  margin-bottom: -10px;
+}
+.createInput {
+  font-size: 25px;
+  background-color: lightslategray;
+  color: darkred;
+  border-color:#1504aa;
+  border-radius: 3px;
+}
+.editPageOnly {
+  font-size: 25px;
+  background-color: lightgreen;
+  color: darkblue;
+  border-color: darkcyan;
+  border-radius: 3px;
+}
+
+.blink {
+  animation: blink 3s infinite;
+
+}
+@keyframes blink {
+  0% {
+    opacity:1;
+  }
+  50% {
+    opacity: 0;
+    transform: scale(2);
+  }
+  51% {
+    opacity:0;
+    transform: scale(0);
+    
+  }
+  
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }  
+}
